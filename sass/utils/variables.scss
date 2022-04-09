@@ -1,0 +1,68 @@
+$brand-grey: #f5f4fa;
+$h-color: #212121;
+$brand-dark: #2f303a;
+$p-color: #757575;
+$icons-color: #afb1b8;
+$blue-color: #2196f3;
+$white-basic: #ffffff;
+$box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+$basic-font: 'Roboto';
+$second-font: sans-serif;
+
+$liner-gradient: rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4);
+$fon-image: url("/images/fon.jpg");
+
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  header {
+    border-bottom: 1px solid #ececec;
+  }
+  
+  
+  body {
+    font-family: $basic-font, $second-font;
+    color: $h-color;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+
+ul {
+  padding-inline-start: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: $brand-dark;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}

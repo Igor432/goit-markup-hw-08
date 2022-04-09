@@ -1,0 +1,269 @@
+/* backdrop */
+
+.backdrop {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+/* general */
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 448px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-indent: 42px;
+  cursor: pointer;
+}
+
+
+label {
+  position: relative;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+/* modal */
+
+.modal {
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  border: 1px solid rgba(0, 0, 0, 0.582);
+  display: flex;
+
+  .close__button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .register {
+    padding: 40px;
+  }
+
+  .modal__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+  }
+
+
+
+}
+
+
+.term {
+  width: 1px;
+  height: 1px;
+  appearance: none;
+  position: absolute;
+  display: flex;
+
+
+&:checked + .check__icon {
+  background: #2196f3;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&:checked + * .checkbox__icon {
+  display: block;
+  fill: #212121;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+}
+
+.check__icon {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.712);
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+
+
+.checkbox__icon {
+  margin-right: 0px;
+  fill: #ffffff;
+  display: none;
+  cursor: pointer;
+}
+}
+
+.policy {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--p-color);
+  letter-spacing: 0.03em;
+
+
+  .policy__terms {
+    color: $blue-color;
+  }
+}
+
+
+
+
+
+.form__field {
+  margin-top: 10px;
+
+  &:focus, &:focus-within { .modal__icon {
+    fill: $blue-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  } 
+}
+
+.name__label,
+.tel__label,
+.email__label,
+.comments__label {
+  margin: 0px;
+  margin-bottom: 4px;
+
+  .modal__icon {
+    position: absolute;
+    left: 12px;
+    top: 32px;
+  }
+  
+}
+
+.comments {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  padding-left: 16px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+}
+
+
+.term__label {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--p-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.button__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+.submit {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+}
+
+.name__label:focus-within,
+.tel__label:focus-within,
+.email__label:focus-within {
+  border: $blue-color;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: $blue-color;
+}
+
+.comments::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__icon {
+  position: absolute;
+  left: 12px;
+  top: 32px;
+}
+
+

@@ -6,7 +6,8 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
+  max-width: 480px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 
@@ -24,5 +25,51 @@
 
   .hero__button {
     margin-top: 30px;
+  
+  }
+}
+
+
+@media screen and (min-width: 767px) {
+  .hero {
+    background-image: url('../images/Img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 767px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url('../images/Img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../images/Img.png');
   }
 }

@@ -1,6 +1,9 @@
 .footer {
-  display: flex;
+  
   align-items: baseline;
+  max-width: 480px;
+  justify-content: center;
+  text-align: center;
 }
 
 .addres__contacts {
@@ -55,7 +58,9 @@
 }
 
 .join__container {
+  /*
   margin-left: 70px;
+  */
 
   .join__slogan {
     font-weight: bold;
@@ -64,6 +69,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-top: 60px;
   }
 
   .join__list {
@@ -72,6 +78,8 @@
     gap: 10px;
     margin-top: 20px;
     padding-inline-start: 0px;
+    justify-content: center;
+    text-align: center;
   }
 
 }
@@ -103,7 +111,10 @@
 
 
 .subscribe__container {
+  /*
   margin-left: 93px;
+
+  */
 
   .subscribe__title {
     font-weight: bold;
@@ -112,6 +123,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-top: 60px;
   }
 
   .subscribe__input {
@@ -129,7 +141,7 @@
 
   .subscribe__form {
     margin-top: 20px;
-    display: flex;
+   
     justify-content: center;
     text-align: center;
   }
@@ -138,4 +150,13 @@
     margin-left: 10px;
     fill: white;
   }
+
+
+}
+
+
+.footer__subscribe {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }

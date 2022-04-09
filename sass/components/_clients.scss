@@ -1,11 +1,21 @@
 .clients {
 
+  max-width: 480px;
+
+  .clients__link {
+    width: 140px;
+    height: 92px;
+  }
+
 .clients__list {
     list-style: none;
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
     padding-inline-start: 0px;
+    justify-content: center;
+    text-align: center;
   }
 
   .clients__title {

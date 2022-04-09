@@ -1,22 +1,37 @@
 
-    
+.quality {
+max-width: 480px;
+justify-content: center;
+text-align: center;
+
+}    
+
+
+.quality__item {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
 .quality__title {
     display: none;
   }
    
   .quality__square {
-    width: 270px;
+    width: 100%;
     height: 120px;
     background-color: $brand-grey;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .quality__list {
     list-style: none;
-    display: flex;
+    display: block;
     gap: 30px;
   padding-inline-start: 0px;
   }

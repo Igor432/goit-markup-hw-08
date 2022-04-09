@@ -15,7 +15,7 @@ $fon-image: url("/images/fon.jpg");
 
 
 .container {
-    width: 1200px;
+    max-width: 1600px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -49,6 +49,7 @@ $fon-image: url("/images/fon.jpg");
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
   }
   
 

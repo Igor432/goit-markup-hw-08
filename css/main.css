@@ -1,5 +1,5 @@
 .container {
-  width: 1200px;
+  max-width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -53,9 +53,8 @@ footer {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*
+  display: flex; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -87,6 +86,12 @@ footer {
 
 .footer__logo > span {
   color: #2196f3;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .menu {
@@ -224,7 +229,8 @@ footer {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
+  max-width: 480px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -242,6 +248,44 @@ footer {
 
 .hero .hero__button {
   margin-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .hero {
+    background-image: url("../images/Img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 767px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url("../images/Img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/Img.png");
+  }
 }
 
 .order__button {
@@ -287,12 +331,30 @@ footer {
   cursor: pointer;
 }
 
+.quality {
+  max-width: 480px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.quality__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .quality__title {
   display: none;
 }
 
 .quality__square {
-  width: 270px;
+  width: 100%;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -305,13 +367,13 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quality__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   gap: 30px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
@@ -347,13 +409,12 @@ footer {
 
 .task {
   padding-top: 0;
+  max-width: 480px;
+  display: none;
 }
 
 .task .task__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   gap: 30px;
   margin-top: 50px;
   -webkit-padding-start: 0px;
@@ -372,6 +433,8 @@ footer {
 
 .task .task__item {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .task .task__overlay {
@@ -381,7 +444,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 96%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
   -webkit-box-align: center;
@@ -405,13 +468,18 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+  max-width: 480px;
 }
 
 .team .team__list {
   list-style: none;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 30px;
   margin-top: 50px;
   padding: 0;
@@ -516,15 +584,30 @@ footer {
   margin-top: 10px;
 }
 
+.clients {
+  max-width: 480px;
+}
+
+.clients .clients__link {
+  width: 140px;
+  height: 92px;
+}
+
 .clients .clients__list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .clients .clients__title {
@@ -569,12 +652,14 @@ footer {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  max-width: 480px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .addres__contacts {
@@ -632,7 +717,9 @@ footer {
 }
 
 .join__container {
+  /*
   margin-left: 70px;
+  */
 }
 
 .join__container .join__slogan {
@@ -642,6 +729,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 60px;
 }
 
 .join__container .join__list {
@@ -653,6 +741,10 @@ footer {
   margin-top: 20px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .join__items {
@@ -684,7 +776,10 @@ footer {
 }
 
 .subscribe__container {
+  /*
   margin-left: 93px;
+
+  */
 }
 
 .subscribe__container .subscribe__title {
@@ -694,6 +789,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 60px;
 }
 
 .subscribe__container .subscribe__input {
@@ -712,9 +808,6 @@ footer {
 
 .subscribe__container .subscribe__form {
   margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -724,6 +817,12 @@ footer {
 .subscribe__container .icon__send {
   margin-left: 10px;
   fill: white;
+}
+
+.footer__subscribe {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 /* BUUTTONS */

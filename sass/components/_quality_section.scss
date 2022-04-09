@@ -3,7 +3,8 @@
 max-width: 480px;
 justify-content: center;
 text-align: center;
-
+padding-left: 15px;
+padding-right: 15px;
 }    
 
 
@@ -22,6 +23,7 @@ text-align: center;
     height: 120px;
     background-color: $brand-grey;
     margin-bottom: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

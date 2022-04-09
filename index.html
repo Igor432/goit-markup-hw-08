@@ -15,10 +15,14 @@
      
         <div class="container nav">
          
-         <nav class="nav">
-                <a href="" class="nav__logo">Web<span>Studio</span></a>
-             <button class="menu__button">MENU</button>
-            <div class="menu__container">
+         <nav class="nav" >
+         
+                <a href="" class="nav__logo" id="logo">Web<span>Studio</span></a>
+             <button class="menu__button" id="menu-button" aria-expanded="false"  aria-controls="menu__container" data-menu-button>MENU</button>
+            
+            <div class="menu__container" id="menu-container" data-menu>
+              <!--
+            <button class="menu__close" id="menu__close">Close</button>-->
                 <ul class="menu">
                     <li class="menu__list"><a href="" class="menu-current menu__link">Студия</a></li>
                     <li class="menu__list"><a href="./portfolio.html" class="menu__link ">Портфолио</a></li>
@@ -28,7 +32,7 @@
         
             <ul class="contacts">
                 <li class="contacts__item contacts__firstchild">
-                    <a href="mailto:info@devstudio.com" class="contacts__link">
+                    <a href="mailto:info@devstudio.com" class="contacts__link mail__link">
                         <svg class="contact__icons" width="16" height="12" fill="color: #757575">
                 <use
                   href="./images/symbol-defs.svg#icon-envelope-hover"
@@ -37,13 +41,28 @@
             >
           </li>
           <li class="contacts__item">
-            <a href="tel:+380961111111" class="contacts__link"
+            <a href="tel:+380961111111" class="contacts__link tel__link"
               ><svg class="contact__icons" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-Vector-1111"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
+
+        <ul class="social__network">
+          <li class="network__item">
+              <a href="" class="network__link">Instagram</a>       
+        </li>
+          <li class="network__item">
+              <a href="" class="network__link">Twitter</a>
+    </li>
+    <li class="network__item">
+      <a href="" class="network__link">Facebook</a>
+</li>
+<li class="network__item">
+  <a href="" class="network__link">Linkedin</a>
+</li>
+  </ul>
       </div>
           </nav>
         </div>
@@ -490,9 +509,9 @@
             </div>
         </div>
 
-    
+       
         <script src="../goit-markup-hw-07/main.js"></script>
-
+        <script src="./mobile-menu.js"></script>
         
 </body>
 </html>

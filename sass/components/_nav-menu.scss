@@ -134,6 +134,10 @@ letter-spacing: 0.02em;
 
   }
 
+  .menu__list {
+    margin-left: 50px;
+  }
+
   .menu__container {
     display: flex !important;
     position:inherit;
@@ -156,20 +160,35 @@ letter-spacing: 0.02em;
 
 }
 
+.tel__link {
+  margin-top: 0px !important;
+}
+
   .menu {
     display: flex !important;
     flex-direction: row;
+    margin-left: 88px;
   }
 
   .contacts {
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column;
     padding-top: 0px !important;
+  
+    margin-left: 84px !important;
+    
   }
 
+  .mail__link {
+    padding-top: 21px;
+  }
 
   .social__network {
     display: none !important;
+  }
+
+  .contact__icons {
+    display: block !important;
   }
 
 }

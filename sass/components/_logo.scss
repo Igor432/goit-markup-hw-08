@@ -5,6 +5,11 @@
   align-items: center;
 
 
+.logo__container {
+  display: inline-block;
+  text-align: center;
+}
+
 .nav__logo {
     font-family: Raleway;
     font-size: 26px;
@@ -13,6 +18,9 @@
     color: $blue-color;
     letter-spacing: 0.03em;
     text-decoration: none;
+  
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .nav__logo > span {
     color: $brand-dark;

@@ -60,6 +60,11 @@ footer {
           align-items: center;
 }
 
+.nav .logo__container {
+  display: inline-block;
+  text-align: center;
+}
+
 .nav .nav__logo {
   font-family: Raleway;
   font-size: 26px;
@@ -68,6 +73,8 @@ footer {
   color: #2196f3;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav .nav__logo > span {
@@ -89,9 +96,24 @@ footer {
 }
 
 .nav {
+  max-width: 480px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.menu__container {
+  display: none;
+  position: absolute;
+}
+
+.menu__button {
+  display: block;
+  margin-left: auto;
 }
 
 .menu {
@@ -100,7 +122,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /*
   margin-left: 94px;
+  */
   margin-top: 0;
   margin-bottom: 0;
   -webkit-padding-start: 0px;

@@ -602,6 +602,8 @@ footer {
   padding-top: 0;
   max-width: 480px;
   display: none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .task .task__list {
@@ -821,7 +823,7 @@ footer {
 }
 
 .clients__link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -855,8 +857,6 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .addres__contacts {

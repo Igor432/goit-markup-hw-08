@@ -1,10 +1,13 @@
 
+
 .quality {
-max-width: 480px;
+  max-width: 480px;
 justify-content: center;
 text-align: center;
 padding-left: 15px;
 padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 }    
 
 
@@ -71,10 +74,12 @@ padding-right: 15px;
 
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 767px) {
 
     .quality {
+     
 max-width: 1024px;
+
     }
 
     .quality__square {

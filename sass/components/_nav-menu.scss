@@ -1,6 +1,6 @@
 
 .nav {
-  max-width: 480px;
+  max-width: 767px;
   display: flex;
   flex-grow: 2;
   position: relative;
@@ -103,12 +103,14 @@ letter-spacing: 0.02em;
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
 
 .nav {
   display: flex;
   flex-direction: row;
-  max-width: 1024px;
+  max-width: 1200px;
   height: auto;
 
 }
@@ -136,32 +138,22 @@ letter-spacing: 0.02em;
 
   .menu__list {
     margin-left: 50px;
+    list-style: none;
   }
 
   
-
-  
-
-
 
   .menu {
     display: flex !important;
     flex-direction: row;
     margin-left: 88px;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
-  
-
-  
-
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1600px) {
-
-
-
 
   
-}
+

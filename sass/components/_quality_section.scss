@@ -1,7 +1,7 @@
 
 
 .quality {
-  max-width: 480px;
+  max-width: 767px;
 justify-content: center;
 text-align: center;
 padding-left: 15px;
@@ -74,11 +74,13 @@ margin-right: auto;
 
 
 
-  @media screen and (min-width: 481px) and (max-width: 767px) {
+  @media screen and (min-width: 767px) and (max-width: 1200px) {
 
     .quality {
      
-max-width: 1024px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
 
     }
 
@@ -110,4 +112,12 @@ max-width: 1024px;
 }
 
 
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .quality {
+     
+      max-width: 1600px;
+      
+          }
   }

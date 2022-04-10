@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: $brand-grey;
-    max-width: 480px;
+    max-width: 767px;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -110,10 +110,10 @@
 
 
 
-@media screen and (min-width: 481px) and (max-width: 767px){
+@media screen and (min-width: 767px) and (max-width: 1200px){
 
   .team {
-    max-width: 1024px;
+    max-width: 1200px;
   }
 
 

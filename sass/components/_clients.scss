@@ -64,6 +64,18 @@
 }
   
 
+@media screen and (min-width: 768px) {
 
+.clients {
+  max-width: 1024px;
+}
+
+  .clients__link {
+    width: 226px !important;
+height: 92px !important;
+
+}
+
+}
   
 

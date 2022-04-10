@@ -196,7 +196,7 @@ footer {
   color: #2196f3;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -490,6 +490,14 @@ footer {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 1024px;
+    margin: 0 !important;
+    background-size: cover;
+  }
+}
+
 .order__button {
   background-color: #2196f3;
   font-size: 16px;
@@ -602,6 +610,7 @@ footer {
   line-height: 1.1;
   color: #2f303a;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 .quality__p {
@@ -610,6 +619,46 @@ footer {
   line-height: 1.7;
   color: #757575;
   margin-top: 10px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .quality {
+    max-width: 1024px;
+  }
+  .quality__square {
+    width: auto;
+    height: 120px;
+    margin: 0 !important;
+  }
+  .quality__list {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .quality__item {
+    display: block;
+    width: 354px;
+  }
+  .quality__text {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+    text-align: start !important;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin-top: 30px;
+  }
 }
 
 .task {
@@ -793,6 +842,30 @@ footer {
   margin-top: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .team {
+    max-width: 1024px;
+  }
+  .team__list {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .team__card {
+    width: 354px;
+    height: 536px;
+  }
+}
+
 .clients {
   max-width: 480px;
   padding-left: 15px;
@@ -860,6 +933,16 @@ footer {
 
 .clients__link:hover, .clients__link:focus {
   border-color: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .clients {
+    max-width: 1024px;
+  }
+  .clients__link {
+    width: 226px !important;
+    height: 92px !important;
+  }
 }
 
 .footer {

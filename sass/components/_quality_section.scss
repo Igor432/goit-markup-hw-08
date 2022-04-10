@@ -35,7 +35,7 @@ padding-right: 15px;
     list-style: none;
     display: block;
     gap: 30px;
-  padding-inline-start: 0px;
+    padding-inline-start: 0px;
   }
   
   .quality__title {
@@ -56,6 +56,7 @@ padding-right: 15px;
     line-height: 1.1;
     color: $brand-dark;
     margin-bottom: 10px;
+    display: inline-block;
   }
   
   .quality__p {
@@ -64,5 +65,44 @@ padding-right: 15px;
     line-height: 1.7;
     color: $p-color;
     margin-top: 10px;
+    display: inline-block;
   }
 
+
+
+
+  @media screen and (min-width: 768px) {
+
+    .quality {
+max-width: 1024px;
+    }
+
+    .quality__square {
+      width: auto;
+      height: 120px;
+      margin: 0 !important;
+    }
+
+    .quality__list {
+      display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: center;
+    }
+
+  
+
+    .quality__item {
+  display: block;
+  width: 354px;
+    }
+    
+.quality__text {
+  justify-content: start !important;
+  text-align: start !important;
+  align-items: start;
+  margin-top: 30px;
+}
+
+
+  }

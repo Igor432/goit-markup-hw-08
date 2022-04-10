@@ -117,3 +117,61 @@ letter-spacing: 0.02em;
 color: #757575;
 margin-top: 32px;
   }
+
+
+
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .menu__container {
+      display: flex ;
+   flex-grow: 1;
+    }
+
+    .contacts {
+      display: flex !important;
+      
+      padding-top: 0px !important;
+ 
+      
+    }
+
+  .contacts__link {
+   
+    color: $p-color;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail__link {
+  padding-top: 21px;
+}
+
+.tel__link {
+  margin-top: 0px !important;
+}
+
+.social__network {
+  display: none !important;
+}
+
+.contact__icons {
+  display: block !important;
+}
+
+
+
+
+
+}

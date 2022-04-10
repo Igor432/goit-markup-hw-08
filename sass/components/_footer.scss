@@ -162,3 +162,24 @@
   margin-right: auto;
   margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+
+.footer  {
+max-width: 1024px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-grow: 3;
+}
+
+.join__container {
+
+justify-content: flex-end;
+}
+
+.subscribe__container {
+flex-basis: 100%;
+}
+
+}

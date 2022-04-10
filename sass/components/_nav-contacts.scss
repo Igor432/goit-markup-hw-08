@@ -119,7 +119,7 @@ line-height: 28px;
 letter-spacing: 0.02em;
 
 color: #757575;
-margin-top: 32px;
+
   }
 
 
@@ -137,7 +137,8 @@ margin-top: 32px;
       display: flex !important;
       
       padding-top: 0px !important;
- 
+ justify-content: center;
+ gap: 15px;
       
     }
 
@@ -158,13 +159,7 @@ margin-top: 32px;
 
 }
 
-.mail__link {
-  padding-top: 21px;
-}
 
-.tel__link {
-  margin-top: 0px !important;
-}
 
 .social__network {
   display: none !important;
@@ -186,10 +181,12 @@ margin-top: 32px;
 
   .contacts {
     display: flex !important;
-    
+    flex-direction: row;
     padding-top: 0px !important;
-
-    
+justify-content: center;
+align-content: center;
+text-align: center;
+    margin-right: 30px;
   }
 
 .contacts__link {
@@ -210,11 +207,11 @@ margin-top: 32px;
 }
 
 .mail__link {
-padding-top: 21px;
+padding-top: 32px;
 }
 
 .tel__link {
-margin-top: 0px !important;
+  padding-top: 32px;
 }
 
 .social__network {

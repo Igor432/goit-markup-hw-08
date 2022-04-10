@@ -46,3 +46,20 @@
 .hidden {
   display: none;
 }
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .nav__logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $blue-color;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ padding-left: 30px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

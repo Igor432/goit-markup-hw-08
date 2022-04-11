@@ -189,6 +189,8 @@ footer {
 
 .menu__button.is-open .close__icon {
   display: block;
+  width: 40px;
+  height: 40px;
 }
 
 .menu__button.is-open .menu__icon {

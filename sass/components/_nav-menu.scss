@@ -66,6 +66,8 @@ margin-right: 15px;
 .close__icon {
   fill: black;
   display: none;
+ 
+
 
   &:hover {
     fill: $blue-color;
@@ -80,6 +82,8 @@ margin-right: 15px;
 
 .menu__button.is-open .close__icon {
   display: block;
+  width: 40px;
+  height: 40px;
   }
 
 

@@ -165,12 +165,12 @@ footer {
   cursor: pointer;
 }
 
-.menu__button .icon__close {
+.menu__button .close__icon {
   fill: black;
   display: none;
 }
 
-.menu__button .icon__close:hover {
+.menu__button .close__icon:hover {
   fill: #2196f3;
   cursor: pointer;
 }

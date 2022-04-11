@@ -41,6 +41,8 @@ margin-right: 15px;
   height: 40px;
   background-color: transparent;
   border: none;
+position: absolute;
+
 
 &.is-opened {
 
@@ -72,8 +74,6 @@ display: none;
 
 
 .menu__icon {
-  width: 40px;
-  height: 40px;
   fill: black;
 
 &:hover {
@@ -84,8 +84,6 @@ display: none;
 
 
 .icon__close {
-  width: 40px;
-  height: 40px;
   fill: black;
   display: none;
  

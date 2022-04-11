@@ -8,6 +8,7 @@
 
 }
 
+
 .menu__container {
 display: none; 
  padding-left: 40px;
@@ -20,8 +21,6 @@ padding-bottom: 48px;
   left: 0;
   background-color: #ffff;
   padding-bottom: 48px;
-
-
 
 }
 
@@ -150,11 +149,15 @@ letter-spacing: 0.02em;
 
 }
 
-
 .menu__container {
-  display: flex ;
-flex-grow: 1;
-}
+  display: flex; 
+   
+    position: relative;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  
+  }
 
   .menu__button {
     display: none !important;
@@ -208,9 +211,15 @@ flex-grow: 1;
 
 
 .menu__container {
-  display: flex ;
-flex-grow: 1;
-}
+  display: flex; 
+   
+    position: relative;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  
+  }
+
 
 
   .menu__button {

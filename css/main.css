@@ -166,6 +166,7 @@ footer {
   width: 40px;
   height: 40px;
   fill: black;
+  color: black;
 }
 
 .menu__icon:hover {
@@ -178,6 +179,7 @@ footer {
   height: 40px;
   fill: black;
   display: none;
+  color: black;
 }
 
 .menu__close:hover {

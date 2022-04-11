@@ -59,28 +59,30 @@ display: none;
   width: 40px;
   height: 40px;
   fill: black;
+  color: black;
 
 &:hover {
-  fill: $blue-color
+  fill: $blue-color;
   cursor: pointer;
 }
-
 }
+
 
 .menu__close {
   width: 40px;
   height: 40px;
   fill: black;
   display: none;
+  color: black;
 
   &:hover {
-    fill: $blue-color
+    fill: $blue-color;
     cursor: pointer;
   }
 
-  
-
 }
+
+
 
 
 

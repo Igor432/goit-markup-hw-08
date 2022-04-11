@@ -193,3 +193,40 @@
 }
 
 }
+
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+.cases {
+  max-width: 1600px;
+}
+
+.cases {
+  max-width: 1200px;
+}
+
+.cases__buttons {
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+display: flex;
+
+}
+
+.portfolio__list {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolio__cards {
+ 
+  width: 370px !important;
+height:auto;
+}
+
+.cards__img {
+width: 354px;
+height: auto;
+}
+
+}

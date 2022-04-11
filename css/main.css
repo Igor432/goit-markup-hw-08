@@ -1595,6 +1595,40 @@ footer {
   }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .cases {
+    max-width: 1600px;
+  }
+  .cases {
+    max-width: 1200px;
+  }
+  .cases__buttons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .portfolio__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .portfolio__cards {
+    width: 370px !important;
+    height: auto;
+  }
+  .cards__img {
+    width: 354px;
+    height: auto;
+  }
+}
+
 /* backdrop */
 .backdrop {
   position: fixed;

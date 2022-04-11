@@ -156,7 +156,8 @@ footer {
 }
 
 .menu__svg {
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -167,8 +168,6 @@ footer {
 
 .menu__icon {
   fill: black;
-  width: 40px;
-  height: 40px;
 }
 
 .menu__icon:hover {

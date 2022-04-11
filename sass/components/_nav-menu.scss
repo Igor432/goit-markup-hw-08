@@ -47,7 +47,8 @@ padding-bottom: 48px;
 }
 
 .menu__svg {
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
   
@@ -56,8 +57,7 @@ padding-bottom: 48px;
 
 .menu__icon {
   fill: black;
-  width: 40px;
-  height: 40px;
+  
  
 
 &:hover {

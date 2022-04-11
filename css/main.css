@@ -177,10 +177,6 @@ footer {
   cursor: pointer;
 }
 
-.menu__button.is-open .menu__icon {
-  display: none;
-}
-
 .menu__close {
   position: absolute;
   right: 0;

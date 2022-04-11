@@ -160,6 +160,8 @@ footer {
 
 .menu__icon {
   fill: black;
+  width: 40px;
+  height: 40px;
 }
 
 .menu__icon:hover {
@@ -167,12 +169,12 @@ footer {
   cursor: pointer;
 }
 
-.menu__button.close__icon {
+.close__icon {
   fill: black;
   display: none;
 }
 
-.menu__button.close__icon:hover {
+.close__icon:hover {
   fill: #2196f3;
   cursor: pointer;
 }

@@ -78,7 +78,17 @@ label {
     background-color: transparent;
     display: flex;
     cursor: pointer;
+
+.close__icon:hover {
+  fill: $blue-color;
+}
+
+
   }
+
+
+
+
 
   .register {
     padding: 40px;

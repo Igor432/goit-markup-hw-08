@@ -33,7 +33,7 @@ padding-bottom: 48px;
 
 
 .menu__button {
-  display: block;
+ 
 margin-right: 15px;
   margin-left: auto;
   z-index: 1;
@@ -41,6 +41,9 @@ margin-right: 15px;
   height: 40px;
   background-color: transparent;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     cursor: pointer;
@@ -48,12 +51,6 @@ margin-right: 15px;
 
 }
 
-
-.menu__svg {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
 .menu__icon {
   fill: black;

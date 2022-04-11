@@ -144,7 +144,6 @@ footer {
 }
 
 .menu__button {
-  display: block;
   margin-right: 15px;
   margin-left: auto;
   z-index: 1;
@@ -152,20 +151,19 @@ footer {
   height: 40px;
   background-color: transparent;
   border: none;
-}
-
-.menu__button:hover {
-  cursor: pointer;
-}
-
-.menu__svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__button:hover {
+  cursor: pointer;
 }
 
 .menu__icon {

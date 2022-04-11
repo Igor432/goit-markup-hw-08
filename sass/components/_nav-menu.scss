@@ -42,6 +42,10 @@ margin-right: 15px;
   background-color: transparent;
   border: none;
 
+  &:hover {
+    cursor: pointer;
+  }
+
 }
 
 
@@ -58,6 +62,8 @@ margin-right: 15px;
 
 
 .menu__button .close__icon {
+  width: 18px;
+  height: 18px;
   fill: black;
   display: none;
 
@@ -65,15 +71,14 @@ margin-right: 15px;
     fill: $blue-color;
     cursor: pointer;
   }
+  
 
 }
 
 
 
 
-.menu__button:hover .menu__icon {
-  fill: $blue-color;
-}
+
 
 
 .menu__button .is-open .menu__icon {

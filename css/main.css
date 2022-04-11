@@ -154,6 +154,10 @@ footer {
   border: none;
 }
 
+.menu__button:hover {
+  cursor: pointer;
+}
+
 .menu__icon {
   fill: black;
   width: 40px;
@@ -166,6 +170,8 @@ footer {
 }
 
 .menu__button .close__icon {
+  width: 18px;
+  height: 18px;
   fill: black;
   display: none;
 }
@@ -173,10 +179,6 @@ footer {
 .menu__button .close__icon:hover {
   fill: #2196f3;
   cursor: pointer;
-}
-
-.menu__button:hover .menu__icon {
-  fill: #2196f3;
 }
 
 .menu__button .is-open .menu__icon {

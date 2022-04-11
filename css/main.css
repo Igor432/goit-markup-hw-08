@@ -156,7 +156,9 @@ footer {
 }
 
 .menu__svg {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   vertical-align: middle;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

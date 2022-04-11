@@ -158,7 +158,7 @@ footer {
   fill: #2196f3;
 }
 
-.menu__button .is-open .menu__button {
+.menu__button .is-open .menu__icon {
   display: none;
 }
 

@@ -10,6 +10,7 @@
   height: 100%;
   width: 100%;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .is-hidden {
@@ -160,6 +161,10 @@ label {
   .policy__terms {
     color: $blue-color;
   }
+
+  .policy__text {
+    font-size: 12px;
+  }
 }
 
 
@@ -285,6 +290,10 @@ width: 370px;
     position: absolute;
 }
 
+.policy__text {
+
+font-size: 14px;
+}
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
 
@@ -301,7 +310,10 @@ width: 370px;
 height: 581px;
 position: absolute;
 }
+.policy__text {
 
+  font-size: 14px;
+  }
 
 }
 }

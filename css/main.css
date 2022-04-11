@@ -154,6 +154,16 @@ footer {
   margin-right: 15px;
   margin-left: auto;
   z-index: 1;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.menu__icon {
+  width: 40px;
+  height: 40px;
+  fill: black;
 }
 
 .menu__close {
@@ -1831,6 +1841,10 @@ label {
   color: #2196f3;
 }
 
+.policy .policy__text {
+  font-size: 12px;
+}
+
 .form__field {
   margin-top: 10px;
 }
@@ -1980,6 +1994,9 @@ label {
     height: auto;
     position: absolute;
   }
+  .policy__text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) and (min-width: 1200px) and (max-width: 1600px) {
@@ -1993,6 +2010,9 @@ label {
     width: 528px;
     height: 581px;
     position: absolute;
+  }
+  .policy__text {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=main.css.map */

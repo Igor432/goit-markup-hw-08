@@ -42,21 +42,34 @@ margin-right: 15px;
   background-color: transparent;
   border: none;
 
-&.is-opened {
-
-
-  .menu__icon {
-    display: none;
-  }
 }
 
 
+.menu__icon {
+  fill: black;
+
+&:hover {
+  fill: $blue-color;
+  cursor: pointer;
+}
 }
 
 
 .icon__close {
   fill: black;
   display: none;
+
+  &:hover {
+    fill: $blue-color;
+    cursor: pointer;
+  }
+
+}
+
+
+
+
+
 
 
 
@@ -76,24 +89,6 @@ display: none;
   
 
 
-.menu__icon {
-  fill: black;
-
-&:hover {
-  fill: $blue-color;
-  cursor: pointer;
-}
-}
-
-
- 
-
-  &:hover {
-    fill: $blue-color;
-    cursor: pointer;
-  }
-
-}
 
 
 

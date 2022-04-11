@@ -154,8 +154,13 @@ footer {
   border: none;
 }
 
-.menu__button.is-opened .menu__icon {
-  display: none;
+.menu__icon {
+  fill: black;
+}
+
+.menu__icon:hover {
+  fill: #2196f3;
+  cursor: pointer;
 }
 
 .icon__close {
@@ -163,30 +168,21 @@ footer {
   display: none;
 }
 
-.icon__close .menu__button:hover .menu__icon {
-  fill: #2196f3;
-}
-
-.icon__close .menu__button .is-open .menu__icon {
-  display: none;
-}
-
-.icon__close .menu__button .is-open .icon__close {
-  display: block;
-}
-
-.icon__close .menu__icon {
-  fill: black;
-}
-
-.icon__close .menu__icon:hover {
-  fill: #2196f3;
-  cursor: pointer;
-}
-
 .icon__close:hover {
   fill: #2196f3;
   cursor: pointer;
+}
+
+.menu__button:hover .menu__icon {
+  fill: #2196f3;
+}
+
+.menu__button .is-open .menu__icon {
+  display: none;
+}
+
+.menu__button .is-open .icon__close {
+  display: block;
 }
 
 .menu__close {

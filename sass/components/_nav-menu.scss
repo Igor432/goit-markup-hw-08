@@ -16,7 +16,7 @@ padding-top: 48px;
 padding-bottom: 48px;
   position: absolute;
   width: 100%;
-  height: 796px;
+  height: auto;
   top: 0;
   left: 0;
   background-color: #ffff;
@@ -41,6 +41,16 @@ margin-right: 15px;
   height: 40px;
   background-color: transparent;
   border: none;
+
+&.is-opened {
+
+
+  .menu__icon {
+    display: block;
+  }
+}
+
+
 }
 
 
@@ -50,7 +60,7 @@ margin-right: 15px;
 }
 
 
-.menu__button>.is-open .menu__icon {
+.menu__button .is-open .menu__icon {
 display: none;
   
 }
@@ -73,7 +83,7 @@ display: none;
 }
 
 
-.menu__button .icon__close {
+.icon__close {
   width: 40px;
   height: 40px;
   fill: black;
@@ -106,7 +116,7 @@ display: none;
  align-items: flex-start;
   margin-bottom: 0;
   padding-inline-start: 0px;
-
+margin-top: 0px;
 
   .menu__list:first-child {
     margin-left: 0px;

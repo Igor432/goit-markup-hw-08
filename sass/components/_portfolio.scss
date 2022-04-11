@@ -31,6 +31,8 @@
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 767px;
+
 
   .our__works {
     font-weight: bold;
@@ -45,9 +47,11 @@
   .cases__buttons {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
     padding-inline-start: 0px;
+    max-width: 767px;
   }
 }
 
@@ -60,6 +64,8 @@
   gap: 30px;
   margin-top: 50px;
   padding-inline-start: 0px;
+ 
+
 
   .portfolio__cards {
     display: block;
@@ -67,6 +73,8 @@
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 450px;
+    height: 404px;
   }
 }
 
@@ -147,5 +155,41 @@
    }
 }
 
+
+}
+
+
+
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+
+  .cases {
+    max-width: 1200px;
+  }
+
+  .cases__buttons {
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  display: flex;
+ 
+  }
+
+  .portfolio__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .portfolio__cards {
+   
+    width: 354px !important;
+  height:auto;
+  }
+
+.cards__img {
+  width: 354px;
+  height: auto;
+}
 
 }

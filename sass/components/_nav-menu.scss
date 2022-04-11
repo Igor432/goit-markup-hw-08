@@ -43,12 +43,14 @@ margin-right: 15px;
   border: none;
 }
 
+
+
 .menu__button:hover .menu__icon {
   fill: $blue-color;
 }
 
 
-.menu__button .is-open .menu__icon {
+.menu__button>.is-open .menu__icon {
 display: none;
   
 }
@@ -71,12 +73,12 @@ display: none;
 }
 
 
-.icon__close {
+.menu__button .icon__close {
   width: 40px;
   height: 40px;
   fill: black;
   display: none;
-  color: black;
+ 
 
   &:hover {
     fill: $blue-color;

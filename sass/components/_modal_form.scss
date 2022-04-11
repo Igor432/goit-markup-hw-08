@@ -27,7 +27,7 @@ label {
 }
 
 input {
-  width: 448px;
+  width: 370px;
   height: 40px;
   background: #ffffff;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -51,14 +51,16 @@ label {
 
 .modal {
   background: #ffffff;
-  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  max-width: 450px;
+  height: auto;
   border: 1px solid rgba(0, 0, 0, 0.582);
   display: flex;
+  position: absolute;
+
+ 
 
   .close__button {
     width: 30px;
@@ -191,7 +193,7 @@ label {
 }
 
 .comments {
-  width: 448px;
+  width: 370px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -267,3 +269,39 @@ textarea {
 }
 
 
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+
+input {
+width: 370px;
+}
+
+.comments {
+  width: 370px;
+}
+
+  .modal {
+    max-width: 450px;
+    height: auto;
+    position: absolute;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+  input {
+    width: 528px;
+  }
+
+  .comments {
+    width: 448px;
+  }
+
+  .modal {
+    width: 528px;
+height: 581px;
+position: absolute;
+}
+
+
+}
+}

@@ -22,7 +22,7 @@
 
 const menuButton = document.getElementById("menu-button")
 const menuContainer = document.getElementById("menu-container")
-const closeButton = document.getElementById("logo")
+
 
 menuButton.addEventListener("click", () => {
     menuContainer.classList.toggle("is-open");

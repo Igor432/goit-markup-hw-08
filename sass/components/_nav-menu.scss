@@ -54,6 +54,11 @@ margin-right: 15px;
 }
 
 
+.icon__close {
+  fill: black;
+  display: none;
+
+
 
 .menu__button:hover .menu__icon {
   fill: $blue-color;
@@ -81,9 +86,6 @@ display: none;
 }
 
 
-.icon__close {
-  fill: black;
-  display: none;
  
 
   &:hover {

@@ -181,11 +181,11 @@ footer {
   cursor: pointer;
 }
 
-.menu__button is-open > .menu__icon {
+.menu__button.is-open .menu__icon {
   display: none;
 }
 
-.menu__button is-open .close__icon {
+.menu__button.is-open .close__icon {
   display: block;
 }
 

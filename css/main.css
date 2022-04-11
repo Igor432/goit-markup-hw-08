@@ -152,7 +152,6 @@ footer {
   height: 40px;
   background-color: transparent;
   border: none;
-  position: absolute;
 }
 
 .menu__button.is-opened .menu__icon {

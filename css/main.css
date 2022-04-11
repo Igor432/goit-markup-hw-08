@@ -166,6 +166,23 @@ footer {
   fill: black;
 }
 
+.menu__icon:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
+.menu__close {
+  width: 40px;
+  height: 40px;
+  fill: black;
+  display: none;
+}
+
+.menu__close:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
 .menu__close {
   position: absolute;
   right: 0;

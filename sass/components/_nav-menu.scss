@@ -48,7 +48,28 @@ margin-right: 15px;
   width: 40px;
   height: 40px;
   fill: black;
+
+&:hover {
+  fill: $blue-color;
+  cursor: pointer;
 }
+
+}
+
+.menu__close {
+  width: 40px;
+  height: 40px;
+  fill: black;
+  display: none;
+
+  &:hover {
+    fill: $blue-color;
+    cursor: pointer;
+  }
+
+}
+
+
 
 
 .menu__close {

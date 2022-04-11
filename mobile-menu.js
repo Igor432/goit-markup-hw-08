@@ -26,5 +26,5 @@ const menuContainer = document.getElementById("menu-container")
 
 menuButton.addEventListener("click", () => {
     menuContainer.classList.toggle("is-open");
-menuButton.classList.toggle("is-open");
+
 });

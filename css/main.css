@@ -139,7 +139,7 @@ footer {
   padding-bottom: 48px;
 }
 
-.is-open {
+.menu__container.is-open {
   display: block;
 }
 
@@ -154,12 +154,12 @@ footer {
   border: none;
 }
 
-.menu__button .is-open .menu__icon {
+.menu__button .is-open .menu__button {
   display: none;
 }
 
 .menu__button .is-open .menu__close {
-  display: block;
+  display: none;
 }
 
 .menu__icon {

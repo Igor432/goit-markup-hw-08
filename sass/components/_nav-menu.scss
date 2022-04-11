@@ -43,6 +43,11 @@ margin-right: 15px;
   border: none;
 }
 
+.menu__button:hover .menu__icon {
+  fill: $blue-color;
+}
+
+
 .menu__button .is-open .menu__button {
 display: none;
   

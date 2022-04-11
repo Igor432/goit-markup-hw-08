@@ -130,6 +130,7 @@ footer {
 }
 
 .menu__container.is-open {
+  display: block;
   padding-left: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -158,6 +159,14 @@ footer {
   height: 40px;
   background-color: transparent;
   border: none;
+}
+
+.menu__button .is-open .menu__icon {
+  display: none;
+}
+
+.menu__button .is-open .menu__close {
+  display: block;
 }
 
 .menu__icon {

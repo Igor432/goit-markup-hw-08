@@ -8,14 +8,13 @@
 
 }
 
-
-
 .menu__container {
   display: none;
- 
 }
 
+
 .menu__container.is-open {
+display: block;
  padding-left: 40px;
 padding-top: 48px;
 padding-bottom: 48px;
@@ -32,6 +31,8 @@ flex-direction: column;
 }
 
 
+
+
 .menu__button {
   display: block;
 margin-right: 15px;
@@ -42,6 +43,14 @@ margin-right: 15px;
   background-color: transparent;
   border: none;
 }
+
+.menu__button .is-open .menu__icon  {
+  display: none;
+}
+
+.menu__button .is-open .menu__close {
+  display: block;
+} 
 
 
 .menu__icon {

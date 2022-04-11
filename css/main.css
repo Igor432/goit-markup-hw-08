@@ -158,8 +158,8 @@ footer {
   display: none;
 }
 
-.menu__button .is-open .menu__close {
-  display: none;
+.menu__button .is-open .icon__close {
+  display: block;
 }
 
 .menu__icon {
@@ -174,7 +174,7 @@ footer {
   cursor: pointer;
 }
 
-.menu__close {
+.icon__close {
   width: 40px;
   height: 40px;
   fill: black;
@@ -182,7 +182,7 @@ footer {
   color: black;
 }
 
-.menu__close:hover {
+.icon__close:hover {
   fill: #2196f3;
   cursor: pointer;
 }

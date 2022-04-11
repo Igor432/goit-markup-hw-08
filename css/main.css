@@ -178,6 +178,8 @@ footer {
 
 .menu__icon {
   fill: black;
+  width: 40px;
+  height: 40px;
 }
 
 .menu__icon:hover {
@@ -188,7 +190,6 @@ footer {
 .close__icon {
   fill: black;
   display: none;
-  padding-top: 20px;
 }
 
 .close__icon:hover {

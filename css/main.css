@@ -158,11 +158,15 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
 .menu__button:hover {
   cursor: pointer;
+}
+
+.menu__svg {
+  width: 40px;
+  height: 40px;
 }
 
 .menu__icon {
@@ -177,10 +181,7 @@ footer {
 .close__icon {
   fill: black;
   display: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  padding-top: 20px;
 }
 
 .close__icon:hover {

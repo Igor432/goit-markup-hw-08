@@ -47,6 +47,8 @@ margin-right: 15px;
 
 .menu__icon {
   fill: black;
+  width: 40px;
+  height: 40px;
 
 &:hover {
   fill: $blue-color;
@@ -55,7 +57,7 @@ margin-right: 15px;
 }
 
 
-.icon__close {
+.menu__button .icon__close {
   fill: black;
   display: none;
 
@@ -65,10 +67,6 @@ margin-right: 15px;
   }
 
 }
-
-
-
-
 
 
 

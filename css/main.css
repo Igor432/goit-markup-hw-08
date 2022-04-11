@@ -147,8 +147,6 @@ footer {
   margin-right: 15px;
   margin-left: auto;
   z-index: 1;
-  width: 40px;
-  height: 40px;
   background-color: transparent;
   border: none;
   display: -webkit-box;
@@ -168,8 +166,6 @@ footer {
 
 .menu__icon {
   fill: black;
-  width: 40px;
-  height: 40px;
 }
 
 .menu__icon:hover {

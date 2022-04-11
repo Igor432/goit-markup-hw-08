@@ -158,6 +158,16 @@ footer {
   cursor: pointer;
 }
 
+.menu__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
 .menu__icon {
   fill: black;
   width: 40px;

@@ -155,7 +155,7 @@ footer {
 }
 
 .menu__button.is-opened .menu__icon {
-  display: block;
+  display: none;
 }
 
 .menu__button:hover .menu__icon {

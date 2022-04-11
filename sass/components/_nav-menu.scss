@@ -41,8 +41,16 @@ margin-right: 15px;
   border: none;
 }
 
-.menu__button .is-open .menu__icon  {
-  display: none;
+.menu__button .is-open {
+
+  .menu__icon {
+    display: none;
+  }
+
+  .menu__close {
+    display: block;
+  }
+  
 }
 
 

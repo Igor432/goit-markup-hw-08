@@ -173,14 +173,14 @@ footer {
   cursor: pointer;
 }
 
-.close__icon {
+.menu__button.close__icon {
   width: 18px;
   height: 18px;
   fill: black;
   display: none;
 }
 
-.close__icon:hover {
+.menu__button.close__icon:hover {
   fill: #2196f3;
   cursor: pointer;
 }

@@ -182,11 +182,11 @@ footer {
 }
 
 .menu__button.is-open .menu__icon {
-  display: none;
+  display: block;
 }
 
 .menu__button.is-open .close__icon {
-  display: block;
+  display: none;
 }
 
 .menu__close {

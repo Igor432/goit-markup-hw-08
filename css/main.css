@@ -270,6 +270,7 @@ footer {
     height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
+    padding-left: 0px;
   }
   .menu__button {
     display: none !important;
@@ -326,6 +327,7 @@ footer {
     height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
+    padding-left: 0px;
   }
   .menu__button {
     display: none !important;

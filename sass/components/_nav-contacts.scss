@@ -13,9 +13,11 @@
  margin-left: 0;
     margin-block-end: 0px;
     margin-block-start: 0px;
-justify-content: start;
+
+z-index: 1;
 align-items: flex-start;
     padding-top: 302px;
+    background-color: #ffff;
     
 
     &:first-child {
@@ -80,7 +82,7 @@ align-items: flex-start;
 .social__network {
     list-style: none;
     display: flex;
-   
+    
     margin-top: 64px;
 
 

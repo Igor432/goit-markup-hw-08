@@ -21,6 +21,7 @@ padding-bottom: 48px;
   left: 0;
   background-color: #ffff;
   padding-bottom: 48px;
+  z-index: 1;
 
   &.is-open {
     display: block;
@@ -35,7 +36,7 @@ padding-bottom: 48px;
 .menu__button {
   margin-right: 15px;
   margin-left: auto;
-  z-index: 1;
+  z-index: 2;
   
   background-color: transparent;
   border: none;

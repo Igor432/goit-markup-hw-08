@@ -233,7 +233,7 @@ footer {
 }
 
 .menu__link {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 40px;
   line-height: 1.2;
@@ -1485,6 +1485,8 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
   max-width: 767px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .cases .our__works {

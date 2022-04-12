@@ -1,19 +1,16 @@
-
 .nav {
   max-width: 767px;
   display: flex;
   flex-grow: 2;
   position: relative;
   height: 60px;
-
 }
 
-
 .menu__container {
-display: none; 
- padding-left: 40px;
-padding-top: 48px;
-padding-bottom: 48px;
+  display: none;
+  padding-left: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   position: absolute;
   width: 100%;
   height: auto;
@@ -26,25 +23,19 @@ padding-bottom: 48px;
   &.is-open {
     display: block;
   }
-
 }
-
-
-
-
 
 .menu__button {
   margin-right: 15px;
   margin-left: auto;
   z-index: 2;
-  
+
   background-color: transparent;
   border: none;
 
   &:hover {
     cursor: pointer;
   }
-
 }
 
 .menu__svg {
@@ -52,59 +43,34 @@ padding-bottom: 48px;
   vertical-align: middle;
   justify-content: center;
   align-items: center;
-  
 }
-
 
 .menu__icon {
   fill: black;
-  
- 
-
-&:hover {
-  fill: $blue-color;
-  cursor: pointer;
-}
-}
-
-.close__icon {
-  fill: black;
-  display: none;
- 
-
 
   &:hover {
     fill: $blue-color;
     cursor: pointer;
   }
-  
-
 }
 
+.close__icon {
+  fill: black;
+  display: none;
 
-
+  &:hover {
+    fill: $blue-color;
+    cursor: pointer;
+  }
+}
 
 .menu__button.is-open .close__icon {
   display: block;
-  
-  }
-
-
-.menu__button.is-open .menu__icon {
-display: none;
-  
 }
 
-
-
-  
-
-
-
-
-
-
-
+.menu__button.is-open .menu__icon {
+  display: none;
+}
 
 .menu__close {
   position: absolute;
@@ -116,11 +82,11 @@ display: none;
 .menu {
   text-align: start;
   list-style: none;
- text-align: start;
- align-items: flex-start;
+  text-align: start;
+  align-items: flex-start;
   margin-bottom: 0;
   padding-inline-start: 0px;
-margin-top: 0px;
+  margin-top: 0px;
 
   .menu__list:first-child {
     margin-left: 0px;
@@ -137,19 +103,18 @@ margin-top: 0px;
     left: 0;
     content: "";
   }
-
 }
 
 .menu__link {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 
-font-weight: 500;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: $brand-dark;
   text-decoration: none;
-  
+
   padding-bottom: 32px;
   display: block;
   position: relative;
@@ -161,28 +126,22 @@ letter-spacing: 0.02em;
   }
 }
 
-
-
-
-
 @media screen and (min-width: 767px) and (max-width: 1200px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    height: 80px;
+  }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  max-width: 1200px;
-  height: 80px;
+  .menu__container {
+    display: flex;
 
-}
-
-.menu__container {
-  display: flex; 
-   
     position: relative;
     height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
-  padding-left: 0px;
+    padding-left: 0px;
   }
 
   .menu__button {
@@ -190,27 +149,23 @@ letter-spacing: 0.02em;
   }
 
   .menu__link {
-    
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.1;
-      letter-spacing: 0.02em;
-      color: $brand-dark;
-      text-decoration: none;
-      padding-top: 32px;
-      padding-bottom: 32px;
-      display: block;
-      position: relative;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: $brand-dark;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu__list {
     margin-left: 50px;
     list-style: none;
   }
-
-  
 
   .menu {
     display: flex !important;
@@ -219,26 +174,19 @@ letter-spacing: 0.02em;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
 }
-
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 80px;
+  }
 
+  .menu__container {
+    display: flex;
 
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  height: 80px;
-
-}
-
-
-.menu__container {
-  display: flex; 
-   
     position: relative;
     height: auto;
     padding-bottom: 0px;
@@ -246,26 +194,22 @@ letter-spacing: 0.02em;
     padding-left: 0px;
   }
 
-
-
   .menu__button {
     display: none !important;
   }
 
   .menu__link {
-    
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.1;
-      letter-spacing: 0.02em;
-      color: $brand-dark;
-      text-decoration: none;
-      padding-top: 32px;
-      padding-bottom: 32px;
-      display: block;
-      position: relative;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: $brand-dark;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu__list {
@@ -273,15 +217,11 @@ letter-spacing: 0.02em;
     list-style: none;
   }
 
-  
-
   .menu {
-    display: flex ;
+    display: flex;
     flex-direction: row;
     margin-left: 88px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
 }
-

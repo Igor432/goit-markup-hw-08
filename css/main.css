@@ -156,31 +156,8 @@ footer {
   cursor: pointer;
 }
 
-.menu__svg {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  vertical-align: middle;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu__icon {
-  fill: black;
-}
-
-.menu__icon:hover {
-  fill: #2196f3;
-  cursor: pointer;
-}
-
 .close__icon {
   fill: black;
-  display: none;
 }
 
 .close__icon:hover {
@@ -188,11 +165,21 @@ footer {
   cursor: pointer;
 }
 
-.menu__button.is-open .close__icon {
-  display: block;
+.menu__icon {
+  fill: black;
+  display: none;
+}
+
+.menu__icon:hover {
+  fill: #2196f3;
+  cursor: pointer;
 }
 
 .menu__button.is-open .menu__icon {
+  display: block;
+}
+
+.menu__button.is-open .close__icon {
   display: none;
 }
 

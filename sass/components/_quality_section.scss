@@ -114,10 +114,10 @@ margin-right: auto;
 
   }
 
-  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  @media screen and (min-width: 1200px)  {
     .quality {
      
-      max-width: 1600px;
+      max-width: 2000px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

@@ -1516,6 +1516,9 @@ footer {
   margin-top: 50px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .portfolio__list .portfolio__cards {

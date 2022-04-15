@@ -655,7 +655,7 @@ footer {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    max-width: 2500px;
+    max-width: 100%;
     height: auto;
     margin: 0;
   }
@@ -835,7 +835,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .quality {
-    max-width: 2500px;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1088,7 +1088,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .team {
-    max-width: 2500px;
+    max-width: 100%;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -1183,7 +1183,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .clients {
-    max-width: 2500px;
+    max-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     padding-left: 0px !important;
@@ -1393,7 +1393,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .footer {
-    max-width: 2500px;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1657,7 +1657,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .cases {
-    max-width: 2500px;
+    max-width: 100%;
   }
   .cases__buttons {
     margin-left: auto;

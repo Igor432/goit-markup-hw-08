@@ -70,7 +70,7 @@
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    max-width: 450px;
+    
     height: auto;
   }
 }
@@ -128,6 +128,11 @@
 }
 
 
+.cards__img {
+ 
+  height: auto;
+} 
+
 
 .cards__link {
   display: inline-block;
@@ -182,12 +187,12 @@
 
   .portfolio__cards {
    
-    width: 354px !important;
+  
   height:auto;
   }
 
 .cards__img {
-  width: 354px;
+  max-width: 354px;
   height: auto;
 }
 
@@ -216,13 +221,13 @@ display: flex;
 
 .portfolio__cards {
  
-  width: 370px !important;
+
 
 }
 
 .cards__img {
-  width: 370px;
-  height: 294px;
+  max-width: 370px;
+  height: auto;
 }
 
 }

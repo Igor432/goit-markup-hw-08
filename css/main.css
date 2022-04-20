@@ -1601,6 +1601,12 @@ footer {
           padding-inline-start: 0px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .portfolio__list .portfolio__cards {
@@ -1726,6 +1732,9 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .portfolio__cards {
     width: 354px !important;

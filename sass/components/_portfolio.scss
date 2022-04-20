@@ -60,7 +60,8 @@
   padding-inline-start: 0px;
   margin-left: auto;
   margin-right: auto;
- 
+  justify-content: center;
+  align-items: center;
 
 
   .portfolio__cards {
@@ -173,8 +174,10 @@
   }
 
   .portfolio__list {
+   
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   .portfolio__cards {

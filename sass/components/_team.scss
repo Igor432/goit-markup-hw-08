@@ -8,12 +8,18 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     margin-top: 50px;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+  
+  }
+
+
+  .team__card {
+    max-width: 450px;
+height: auto;
   }
   
   .team__title {
@@ -24,6 +30,7 @@
     text-align: center;
     margin: 0;
   }
+
   
   
   
@@ -128,9 +135,13 @@ justify-content: center;
 
 .team__card {
 
-max-width: 354px;
-max-height: 536px;
+width: 354px;
+height: 536px;
 }
+
+
+
+
 }
 
 @media screen and (min-width: 1200px)  {

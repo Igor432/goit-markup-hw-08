@@ -1002,11 +1002,20 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 30px;
   margin-top: 50px;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.team .team__card {
+  max-width: 450px;
+  height: auto;
 }
 
 .team .team__title {
@@ -1131,8 +1140,8 @@ footer {
             justify-content: center;
   }
   .team__card {
-    max-width: 354px;
-    max-height: 536px;
+    width: 354px;
+    height: 536px;
   }
 }
 
@@ -1752,9 +1761,12 @@ label {
   margin-bottom: 4px;
 }
 
-input {
+#email, #tel, #name {
   width: 370px;
   height: 40px;
+}
+
+input {
   background: #ffffff;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
@@ -1788,7 +1800,6 @@ label {
   display: flex;
   position: absolute;
   z-index: 3;
-  max-width: 450px;
 }
 
 .modal .close__button {

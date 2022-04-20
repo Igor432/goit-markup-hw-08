@@ -27,9 +27,13 @@ label {
   margin-bottom: 4px;
 }
 
-input {
+#email, #tel, #name {
   width: 370px;
   height: 40px;
+}
+
+input {
+  
   background: #ffffff;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -61,7 +65,7 @@ label {
   display: flex;
   position: absolute;
   z-index: 3;
-max-width: 450px;
+
  
 
   .close__button {

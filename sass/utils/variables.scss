@@ -17,14 +17,17 @@ $fon-image: url("/images/fon.jpg");
 
 .container {
     
-   max-width: 767px;
+  max-width: 767px;
     padding-left: 15px;
     padding-right: 15px;
-    
+ margin-left: auto;
+ margin-right: auto;
   }
   
   header {
     border-bottom: 1px solid #ececec;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   
@@ -52,7 +55,7 @@ $fon-image: url("/images/fon.jpg");
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
-  
+ 
   }
   
 
@@ -81,7 +84,7 @@ footer {
 
   .container {
     max-width: 1200px;
-    margin-block-end: 0px;
+    
   }
 
   .section {
@@ -95,12 +98,13 @@ footer {
 
 @media screen and (min-width: 1200px) {
   
+
+
+
   .container {
-   max-width: 1600px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+max-width: 1200px;
+
+
 
 
   }
@@ -108,7 +112,8 @@ align-items: center;
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
-  
+  margin-left: auto;
+  margin-right: auto;
   }
 
 }

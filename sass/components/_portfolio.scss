@@ -58,7 +58,8 @@
   gap: 30px;
   margin-top: 50px;
   padding-inline-start: 0px;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
  
 
 
@@ -68,8 +69,8 @@
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 450px;
-    height: 404px;
+    max-width: 450px;
+    height: auto;
   }
 }
 
@@ -207,17 +208,18 @@ display: flex;
 .portfolio__list {
   flex-direction: row;
   justify-content: center;
+
 }
 
 .portfolio__cards {
  
   width: 370px !important;
-height:auto;
+
 }
 
 .cards__img {
-width: 354px;
-height: auto;
+  width: 370px;
+  height: 294px;
 }
 
 }

@@ -1,6 +1,10 @@
 .task {
+  
     padding-top: 0;
-    max-width: 480px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
     display: none;
   
   
@@ -50,5 +54,29 @@
     color: white;
     text-transform: uppercase;
   }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+  .task {
+  
+    display: flex;
+
+
+    .task__list {
+      display: flex;
+    }
+
+    .task__item {
+      width: 370px;
+height: 294px;
+    }
+
+}
+
+
 
 }

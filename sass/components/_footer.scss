@@ -9,7 +9,9 @@
 
 }
 
-
+.addres__contacts {
+  flex-grow: 2;
+}
 
 .address {
   list-style: none;
@@ -179,7 +181,7 @@ flex-basis: 100%;
 }
 
 .subscribe__input {
-  width: 370px ;
+ max-width: 370px ;
 }
 
 }

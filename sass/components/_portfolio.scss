@@ -27,14 +27,6 @@
 
 
 
-.cases {
-  text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  max-width: 767px;
-  padding-left: 15px;
-  padding-right: 15px;
-
 
   .our__works {
     font-weight: bold;
@@ -55,7 +47,7 @@
     padding-inline-start: 0px;
     max-width: 767px;
   }
-}
+
 
 
 
@@ -199,13 +191,8 @@
 
 
 @media screen and (min-width: 1200px) {
-.cases {
-  
-}
 
-.cases {
-  max-width: 100%;
-}
+
 
 .cases__buttons {
   

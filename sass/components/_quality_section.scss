@@ -4,10 +4,10 @@
   max-width: 767px;
 justify-content: center;
 text-align: center;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }    
 
 
@@ -15,6 +15,7 @@ margin-right: auto;
   justify-content: center;
   text-align: center;
   align-items: center;
+  max-width: 450px;
 }
 
 .quality__title {
@@ -22,7 +23,7 @@ margin-right: auto;
   }
    
   .quality__square {
-    width: 100%;
+    max-width: 450px;
     height: 120px;
     background-color: $brand-grey;
     margin-bottom: 30px;
@@ -30,9 +31,10 @@ margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+flex-wrap: wrap;
   }
+
+ 
   
   .quality__list {
     list-style: none;
@@ -81,7 +83,9 @@ margin-right: auto;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-
+  
+   
+    justify-content: center;
     }
 
     .quality__square {

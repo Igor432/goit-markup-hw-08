@@ -1,10 +1,8 @@
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+ 
     background-color: $brand-grey;
-    max-width: 767px;
-    padding-left: 15px;
-    padding-right: 15px;
+   
+  
 
   .team__list {
     list-style: none;
@@ -112,9 +110,10 @@
 
 @media screen and (min-width: 767px) and (max-width: 1200px){
 
-  .team {
-    max-width: 1200px;
-  }
+.team {
+  display: flex;
+  flex-direction: column;
+}
 
 
   .team__list {
@@ -123,24 +122,25 @@
   flex-direction: row !important;
 flex-wrap: wrap;
 justify-content: center;
+
 }
 
 
 .team__card {
 
-width: 354px;
-height: 536px;
+max-width: 354px;
+max-height: 536px;
 }
 }
 
 @media screen and (min-width: 1200px)  {
+
   .team {
-    max-width: 100%;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
 
   .team__list {
   
@@ -148,6 +148,8 @@ height: 536px;
   flex-direction: row !important;
 flex-wrap: wrap;
 justify-content: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 

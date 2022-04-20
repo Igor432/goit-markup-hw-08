@@ -19,6 +19,7 @@
   background-color: #ffff;
   padding-bottom: 48px;
   z-index: 1;
+  margin-left: auto;
 
   &.is-open {
     display: block;
@@ -124,7 +125,8 @@
   .nav {
     display: flex;
     flex-direction: row;
-  
+  margin-left: auto;
+  margin-right: auto;
     height: 80px;
   
   }

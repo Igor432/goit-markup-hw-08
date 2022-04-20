@@ -18,10 +18,10 @@ $fon-image: url("/images/fon.jpg");
 .container {
     
   max-width: 767px;
-    padding-left: 15px;
-    padding-right: 15px;
+    
  margin-left: auto;
  margin-right: auto;
+ position: relative;
   }
   
   header {
@@ -55,7 +55,8 @@ $fon-image: url("/images/fon.jpg");
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
- 
+ padding-left: 15px;
+ padding-right: 15px;
   }
   
 
@@ -83,8 +84,9 @@ footer {
 @media screen and (min-width: 767px) and (max-width: 1200px) {
 
   .container {
-    max-width: 1200px;
-    
+    max-width: 1024px;
+ margin-left: auto;
+ margin-right: auto;
   }
 
   .section {

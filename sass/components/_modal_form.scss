@@ -60,7 +60,7 @@ label {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  max-width: 528px;
+  min-width: 320px;
 
   height: auto;
   border: 1px solid rgba(0, 0, 0, 0.582);
@@ -295,6 +295,19 @@ textarea {
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
 
+  .modal {
+   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+ 
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    display: flex;
+    position: absolute;
+    z-index: 3;
+  }
 
   .form__field {
     margin-top: 10px;

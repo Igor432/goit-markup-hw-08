@@ -61,6 +61,7 @@
 }
 
 .join__container {
+  margin-top: 60px;
 
   .join__slogan {
     font-weight: bold;
@@ -69,7 +70,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 60px;
+    
   }
 
   .join__list {
@@ -111,7 +112,7 @@
 
 
 .subscribe__container {
-
+  margin-top: 60px;
 
   .subscribe__title {
     font-weight: bold;
@@ -120,7 +121,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 60px;
+   
   }
 
   .subscribe__input {
@@ -170,11 +171,12 @@ flex-wrap: wrap;
 }
 
 .join__container {
-
+margin-top: 0px;
 justify-content: flex-end;
 }
 
 .subscribe__container {
+  margin-top: 60px;
 flex-basis: 100%;
 }
 
@@ -207,6 +209,7 @@ flex-basis: 100%;
       margin-left: 70px;
       justify-content: start;
       text-align: start;
+      margin-top: 0px;
     }
 
     
@@ -215,6 +218,7 @@ flex-basis: 100%;
       margin-left: 92px;
     text-align: start;
     align-items: flex-start;
+    margin-top: 0px;
     }
 
 .subscribe__form {
@@ -224,7 +228,7 @@ flex-basis: 100%;
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+ margin-top: 0px;
   margin-left: 12px;
 }
 
@@ -233,9 +237,7 @@ flex-basis: 100%;
 }
 
 
-.join__slogan {
-  margin-top: 0px;
-}
+
 
 .subscribe__title {
 margin-top: 0px;

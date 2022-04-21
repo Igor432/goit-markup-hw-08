@@ -28,7 +28,7 @@ label {
 }
 
 #email, #tel, #name {
-  width: 370px;
+  width: 100%;
   
   height: 40px;
 }
@@ -189,6 +189,7 @@ label {
 
 .form__field {
   margin-top: 10px;
+  max-width: 370px;
 
   &:focus, &:focus-within { .modal__icon {
     fill: $blue-color;
@@ -294,6 +295,11 @@ textarea {
 @media screen and (min-width: 767px) and (max-width: 1200px) {
 
 
+  .form__field {
+    margin-top: 10px;
+    max-width: 370px;
+  }  
+
 
 .comments {
   width: 370px;
@@ -313,9 +319,13 @@ font-size: 14px;
 @media screen and (min-width: 1200px) {
 
   
+  .form__field {
+    margin-top: 10px;
+    max-width: 448px;
+  }  
 
   .comments {
-    width: 448px;
+    width: 100%
   }
 
   .modal {
@@ -326,7 +336,7 @@ position: absolute;
 
 
 #email, #tel, #name {
-  max-width: 448px;
+  width: 448px;
   
   height: 40px;
 }

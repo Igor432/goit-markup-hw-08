@@ -12,7 +12,7 @@
 
 .nav__logo {
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
     color: $blue-color;
@@ -30,7 +30,7 @@
 
   .footer__logo {
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
     color: #ffffff;
@@ -62,4 +62,9 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  .footer__logo {
+    font-size: 26px;
+  }
+
 }

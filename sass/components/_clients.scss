@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-inline-start: 0px;
     justify-content: center;
     text-align: center;
@@ -18,7 +18,7 @@
   .clients__title {
     line-height: 1.1;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 0.03em;
     text-align: center;
     margin: 0;
@@ -69,8 +69,13 @@
   }
 } 
 
+.clients__list {
+  margin-top: 50px;
+}
 
-
+.clients__title {
+  font-size: 33px;
+}
   
 
 @media screen and (min-width: 1200px) {
@@ -87,6 +92,13 @@
   height: 92px;
 }
 
+.clients__list {
+  margin-top: 50px;
+}
+
+.clients__title {
+  font-size: 36px;
+}
 
 }
   

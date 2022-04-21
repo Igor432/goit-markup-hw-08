@@ -17,11 +17,9 @@
   }
 
 
-  .team__card {
-    max-width: 450px;
-height: auto;
-  }
+
   
+
   .team__title {
     line-height: 1.1;
     font-weight: bold;
@@ -107,6 +105,10 @@ height: auto;
     letter-spacing: 0.03em;
     color: $p-color;
     margin-top: 10px;
+  }
+
+  .team__image {
+    width: 100%;
   }
  
   

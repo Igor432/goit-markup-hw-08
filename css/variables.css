@@ -1,8 +1,10 @@
 .container {
-  max-width: 767px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 header {
@@ -34,8 +36,6 @@ img {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 ul {
@@ -59,7 +59,7 @@ footer {
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
   .container {
-    max-width: 1024px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }

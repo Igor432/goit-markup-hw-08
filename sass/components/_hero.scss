@@ -4,7 +4,7 @@
 
 
 .hero {
-  background-image: url('../images/Img.png');
+  background-image: url('../images/header-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,14 +16,17 @@
   margin-left: auto;
   margin-right: auto;
   
-  @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: url('../images/Img.png');
-  }
+
 }
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+  background-image: url('../images/header-img@2x.jpg');
+}
+
 
 
   .hero__slogan {
@@ -48,7 +51,7 @@
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
   .hero {
-    background-image: url('../images/Img.png');
+ 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,21 +62,32 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-  
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url('../images/header-img760-2x.jpg');
+    }
+
+
 }
 
 
 
-
-
 }
+
+
 
 
 
 @media screen and (min-width: 1200px) {
 
   .hero {
-    background-image: url('../images/Img.png');
+    background-image: url('../images/header-img1600.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,7 +97,15 @@
     max-width: 100%;
     height: auto;
     margin: 0;
-  
+   
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+  background-image: url('../images/header-img1600-2x.jpg');
 }
 
 .hero__slogan {
@@ -93,3 +115,4 @@
 }
 
 
+}

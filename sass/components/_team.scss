@@ -25,7 +25,7 @@ height: auto;
   .team__title {
     line-height: 1.1;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 0.03em;
     text-align: center;
     margin: 0;
@@ -133,6 +133,7 @@ justify-content: center;
 }
 
 
+
 .team__card {
 
 width: 354px;
@@ -153,6 +154,10 @@ height: 536px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .team__title {
+    font-size: 36px;
   }
 
   .team__list {

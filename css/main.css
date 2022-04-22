@@ -2012,6 +2012,7 @@ label {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20px;
+  font-size: 12px;
   position: relative;
   font-weight: 400;
   line-height: 1.4;
@@ -2020,11 +2021,8 @@ label {
 }
 
 .policy__terms {
+  margin-left: 2px;
   color: #2196f3;
-  font-size: 12px;
-}
-
-.policy__text {
   font-size: 12px;
 }
 
@@ -2072,14 +2070,16 @@ label {
 
 .term__label {
   margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--p-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--p-color);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2199,7 +2199,7 @@ label {
   .policy__terms {
     font-size: 12px;
   }
-  .policy__text {
+  .term__label {
     font-size: 12px;
   }
 }
@@ -2226,7 +2226,10 @@ label {
   .policy__terms {
     font-size: 14px;
   }
-  .policy__text {
+  .policy {
+    font-size: 14px;
+  }
+  .term__label {
     font-size: 14px;
   }
 }
@@ -2234,6 +2237,15 @@ label {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .modal {
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .term__label {
+    font-size: 10px;
+  }
+  .policy__terms {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,6 @@
 .nav {
-  
   display: flex;
-  
+
   position: relative;
   height: 60px;
 }
@@ -21,7 +20,6 @@
   z-index: 1;
   margin-left: auto;
   transition: transform 450ms ease;
- 
 
   &.is-open {
     transform: translateY(0);
@@ -29,7 +27,6 @@
 }
 
 .menu__button {
-  
   margin-left: auto;
   z-index: 2;
 
@@ -40,7 +37,6 @@
     cursor: pointer;
   }
 }
-
 
 .close__icon {
   fill: black;
@@ -123,20 +119,13 @@
   }
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 767px) and (max-width: 1200px) {
   .nav {
     display: flex;
     flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 80px;
-  
   }
 
   .menu__container {
@@ -188,7 +177,6 @@
     flex-direction: row;
 
     height: 80px;
-   
   }
 
   .menu__container {

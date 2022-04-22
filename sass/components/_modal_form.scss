@@ -61,6 +61,7 @@ label {
   top: 50%;
   transform: translate(-50%, -50%);
   min-width: 320px;
+  width: auto;
 
   height: auto;
   border: 1px solid rgba(0, 0, 0, 0.582);
@@ -91,7 +92,7 @@ label {
 }
 
 
-  }
+}
 
 
 
@@ -169,19 +170,21 @@ label {
 
   position: relative;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.4;
   color: var(--p-color);
   letter-spacing: 0.03em;
 
 
-  .policy__terms {
-    color: $blue-color;
-  }
+ 
+}
 
-  .policy__text {
-    font-size: 12px;
-  }
+.policy__terms {
+  color: $blue-color;
+  font-size: 12px;
+}
+
+.policy__text {
+  font-size: 12px;
 }
 
 
@@ -293,6 +296,9 @@ textarea {
 }
 
 
+
+
+
 @media screen and (min-width: 767px) and (max-width: 1200px) {
 
   .modal {
@@ -330,9 +336,14 @@ textarea {
     position: absolute;
 }
 
-.policy__text {
+.policy__terms {
 
-font-size: 14px;
+  font-size: 12px;
+}
+
+.policy__text {
+  font-size: 12px;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -360,10 +371,20 @@ position: absolute;
   height: 40px;
 }
 
-.policy__text {
-
+.policy__terms {
+ 
   font-size: 14px;
-  }
+}
+
+.policy__text {
+  font-size: 14px;
+}
 
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .modal {
+    width: 450px;
+  }
 }

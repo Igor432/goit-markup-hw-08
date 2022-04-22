@@ -154,7 +154,8 @@ footer {
 }
 
 .menu__container {
-  display: none;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   padding-left: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -167,10 +168,15 @@ footer {
   padding-bottom: 48px;
   z-index: 1;
   margin-left: auto;
+  -webkit-transition: -webkit-transform 450ms ease;
+  transition: -webkit-transform 450ms ease;
+  transition: transform 450ms ease;
+  transition: transform 450ms ease, -webkit-transform 450ms ease;
 }
 
 .menu__container.is-open {
-  display: block;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .menu__button {
@@ -289,6 +295,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   .menu__button {
     display: none !important;
@@ -346,6 +354,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   .menu__button {
     display: none !important;

@@ -1,7 +1,7 @@
 .contacts {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  
   margin-left: auto;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   margin-left: 0;
   margin-block-end: 0px;
   margin-block-start: 0px;
-
+  flex-direction: column-reverse;
   z-index: 1;
   align-items: flex-start;
   padding-top: 302px;
@@ -54,6 +54,12 @@
 
 .tel__link {
   margin-top: 32px;
+  font-weight: 500;
+font-size: 34px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+color: #2196F3;
 }
 
 .contact__icons {
@@ -91,30 +97,34 @@
   color: $blue-color;
 }
 
+/*
 .mail__link {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.2;
-  /* identical to box height */
-
   letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 
-.tel__link {
+*/
+
+.mail__link {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 0.9;
   letter-spacing: 0.02em;
-
-  color: #757575;
+  color: $p-color;
+  padding-top: 32px;
 }
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .contacts {
     display: flex;
-
+    flex-direction: column;
     padding-top: 0px;
     justify-content: center;
     gap: 15px;
@@ -137,27 +147,45 @@
   }
 
   .tel__link {
-    margin-top: 0px !important;
+    margin-top: 0px ;
+    .tel__link {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+    
+      color: #757575;
+    }
   }
 
   .social__network {
-    display: none !important;
+    display: none ;
   }
 
   .contact__icons {
-    display: block !important;
+    display: block ;
   }
+
+
+
+  .mail__link {
+    padding-top: 0px;
+   
+  }
+
 }
+
+
 
 @media screen and (min-width: 1200px) {
   .contacts {
     display: flex;
     flex-direction: row;
-    padding-top: 0px !important;
+    padding-top: 0px ;
     justify-content: center;
     align-content: center;
     text-align: center;
-
+    
     margin-left: auto;
   }
 
@@ -176,8 +204,9 @@
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+ text-align: center;
   }
 
   .tel__link {
@@ -186,6 +215,7 @@
 
   .mail__link {
     padding-top: 32px;
+   
   }
 
   .tel__link {

@@ -397,10 +397,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin-left: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -415,6 +411,10 @@ footer {
           margin-block-end: 0px;
   -webkit-margin-before: 0px;
           margin-block-start: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   z-index: 1;
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -473,6 +473,11 @@ footer {
 
 .tel__link {
   margin-top: 32px;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .contact__icons {
@@ -513,21 +518,25 @@ footer {
   color: #2196f3;
 }
 
+/*
 .mail__link {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.2;
-  /* identical to box height */
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
-.tel__link {
+*/
+.mail__link {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 0.9;
   letter-spacing: 0.02em;
   color: #757575;
+  padding-top: 32px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -535,6 +544,10 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 0px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -564,13 +577,23 @@ footer {
     align-items: center;
   }
   .tel__link {
-    margin-top: 0px !important;
+    margin-top: 0px;
+  }
+  .tel__link .tel__link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
   .social__network {
-    display: none !important;
+    display: none;
   }
   .contact__icons {
-    display: block !important;
+    display: block;
+  }
+  .mail__link {
+    padding-top: 0px;
   }
 }
 
@@ -583,7 +606,7 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 0px !important;
+    padding-top: 0px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -613,8 +636,10 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   .tel__link {
     margin-top: 0px !important;

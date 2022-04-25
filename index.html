@@ -198,16 +198,13 @@
 
       <ul class="team__list">
           <li class="team__card">
-              <img
-              srcset="./images/team_lg/img-270.jpg 270w, 
-              ./images/team_md/img-354.jpg 354w, 
-              ./images/team_sm/img.jpg 450w,  
-              ./images/team_sm/img@2x.jpg 900w "
-               src="./images/team_lg/img270.jpg" 
-               alt="Игорь Демьяненко" 
-               class="team__image" 
-               sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 100vw"
-               />
+            <picture>
+              <source srcset="./images/team_sm/img.jpg 1x,
+              ./images/team_sm/img@2x.jpg 2x" 
+              type="image/jpeg" 
+              media="(min-width: 480px)"/>
+              <img src="./images/Team_sm/img.jpg" alt="Кот" />
+            </picture>
               <div class="member__info">
                   <h3 class="member__name">Игорь Демьяненко</h3>
                   <p class="member__position">Product Designer</p>
@@ -245,13 +242,13 @@
               </div>
           </li>
           <li class="team__card">
-            <img
-            srcset="./images/team_lg/img-1-270.jpg 270w, ./images/team_md/img-1-354.jpg 354w, ./images/team_sm/img-1.jpg 450w, ./images/team_sm/img@2x-1.jpg 900w  "
-             src="./images/team_lg/img-1-270.jpg" 
-             alt="Ольга Репина" 
-             class="team__image" 
-             sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-             />
+            <picture>
+              <source srcset="./images/team_sm/img-1.jpg 1x,
+              ./images/team_sm/img@2x-1.jpg 2x" 
+              type="image/jpeg" 
+              media="(min-width: 480px)"/>
+              <img src="./images/Team_sm/img-1.jpg" alt="Кот" />
+            </picture>
             <div class="member__info">
                 <h3 class="member__name">Ольга Репина</h3>
                 <p class="member__position">Frontend Developer</p>
@@ -289,13 +286,13 @@
             </div>
         </li>
         <li class="team__card">
-          <img
-          srcset="./images/team_lg/img-2-270.jpg 270w, ./images/team_md/img-2-354.jpg 354w, ./images/team_sm/img-2.jpg 450w, ./images/team_sm/img@2x-2.jpg 900w  "
-           src="./images/team_lg/img-2-270.jpg" 
-           alt="Николай Тарасов" 
-           class="team__image" 
-           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
-           />
+          <picture>
+            <source srcset="./images/team_sm/img-2.jpg 1x,
+            ./images/team_sm/img@2x-2.jpg 2x" 
+            type="image/jpeg" 
+            media="(min-width: 480px)"/>
+            <img src="./images/Team_sm/img-2.jpg" alt="Кот" />
+          </picture>
           <div class="member__info">
               <h3 class="member__name">Николай Тарасов</h3>
               <p class="member__position">Marketing</p>
@@ -333,13 +330,13 @@
           </div>
       </li>
       <li class="team__card">
-        <img
-          srcset="./images/team_lg/img-3-270.jpg 270w, ./images/team_md/img-3-354.jpg 354w, ./images/team_sm/img-3.jpg 450w, ./images/team_sm/img@2x-3.jpg 900w  "
-           src="./images/team_lg/img-3-270.jpg" 
-           alt="Михаил Ермаков" 
-           class="team__image" 
-           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
-           />
+        <picture>
+          <source srcset="./images/team_sm/img-3.jpg 1x,
+          ./images/team_sm/img@2x-3.jpg 2x" 
+          type="image/jpeg" 
+          media="(min-width: 480px)"/>
+          <img src="./images/Team_sm/img-3.jpg" alt="Кот" />
+        </picture>
         <div class="member__info">
             <h3 class="member__name">Михаил Ермаков</h3>
             <p class="member__position">UI Designer</p>

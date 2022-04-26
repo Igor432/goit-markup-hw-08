@@ -4,7 +4,7 @@
   .team__list {
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -102,7 +102,7 @@
 
   .team__list {
     display: flex ;
-    flex-direction: row ;
+   flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }

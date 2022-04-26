@@ -101,8 +101,8 @@
   }
 
   .team__list {
-    display: flex !important;
-    flex-direction: row !important;
+    display: flex ;
+    flex-direction: row ;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -130,8 +130,8 @@
   }
 
   .team__list {
-    display: flex !important;
-    flex-direction: row !important;
+    display: flex ;
+    flex-direction: row ;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: auto;

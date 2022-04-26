@@ -20,9 +20,7 @@
   }
 }
 
-.contacts__firstchild {
-  margin-right: 30px;
-}
+
 
 .contacts__item {
   display: list-item;
@@ -31,7 +29,7 @@
   text-align: center;
 }
 
-.contacts__link,
+
 .contacts__link {
   color: $p-color;
   font-size: 14px;
@@ -133,7 +131,7 @@ color: #2196F3;
 
   .contacts__link {
     color: $p-color;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
@@ -187,6 +185,10 @@ color: #2196F3;
     text-align: center;
     
     margin-left: auto;
+  }
+
+  .contacts__firstchild {
+    margin-right: 30px;
   }
 
   .tel__link {

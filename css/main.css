@@ -449,10 +449,6 @@ footer {
   margin-right: 50px;
 }
 
-.contacts__firstchild {
-  margin-right: 30px;
-}
-
 .contacts__item {
   display: list-item;
   -webkit-box-pack: center;
@@ -464,7 +460,6 @@ footer {
   text-align: center;
 }
 
-.contacts__link,
 .contacts__link {
   color: #757575;
   font-size: 14px;
@@ -487,9 +482,7 @@ footer {
   align-items: center;
 }
 
-.contacts__link:hover, .contacts__link:focus,
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
 }
 
@@ -578,7 +571,7 @@ footer {
   }
   .contacts__link {
     color: #757575;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.1;
     text-decoration: none;
@@ -635,6 +628,9 @@ footer {
         align-content: center;
     text-align: center;
     margin-left: auto;
+  }
+  .contacts__firstchild {
+    margin-right: 30px;
   }
   .tel__link {
     margin-top: 0px;

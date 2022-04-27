@@ -73,7 +73,7 @@
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    height: 404px;
     
   }
 }
@@ -112,6 +112,7 @@
   padding-right: 24px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  height: 110px;
 
   .cards__type {
     font-size: 16px;
@@ -136,7 +137,8 @@
   position: relative;
   overflow: hidden;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-max-width: 450px;
+
+
 
   &:hover, &:focus {
     box-shadow: $box-shadow;
@@ -183,20 +185,9 @@ max-width: 450px;
   }
 
   .portfolio__cards {
-   
-  
   width: 354px;
- 
-  }
 
-  .cards__link {
-    max-width: 354px;;
   }
-
-.cards__img {
-  width: 354px;
-  height: 294px;
-}
 
 }
 
@@ -225,9 +216,5 @@ margin-top: 50px;
   max-width: 370px;;
 }
 
-.cards__img {
-  width: 370px;
-  height: 100%
-}
 
 }

@@ -1190,6 +1190,7 @@ footer {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  height: 162px;
 }
 
 .member__info .member__name {
@@ -1732,6 +1733,7 @@ footer {
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 404px;
 }
 
 .cards__main {
@@ -1780,6 +1782,7 @@ footer {
   padding-right: 24px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  height: 110px;
 }
 
 .cards__info .cards__type {
@@ -1807,7 +1810,6 @@ footer {
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  max-width: 450px;
 }
 
 .cards__link:hover, .cards__link:focus {
@@ -1856,13 +1858,6 @@ footer {
   .portfolio__cards {
     width: 354px;
   }
-  .cards__link {
-    max-width: 354px;
-  }
-  .cards__img {
-    width: 354px;
-    height: 294px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1889,10 +1884,6 @@ footer {
   }
   .cards__link {
     max-width: 370px;
-  }
-  .cards__img {
-    width: 370px;
-    height: 100%;
   }
 }
 

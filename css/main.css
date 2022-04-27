@@ -2,7 +2,6 @@
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -159,9 +158,9 @@ footer {
   padding-left: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
-  position: absolute;
-  width: 100%;
-  height: auto;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   background-color: #ffff;
@@ -172,6 +171,13 @@ footer {
   transition: -webkit-transform 450ms ease;
   transition: transform 450ms ease;
   transition: transform 450ms ease, -webkit-transform 450ms ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .menu__container.is-open {
@@ -297,6 +303,10 @@ footer {
     padding-left: 0px;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .menu__current:after {
     display: block;
@@ -367,6 +377,10 @@ footer {
     padding-left: 0px;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .menu__current:after {
     display: block;
@@ -441,12 +455,16 @@ footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-top: 270px;
   background-color: #ffff;
+  margin-top: auto;
 }
 
 .contacts:first-child {
   margin-right: 50px;
+}
+
+.contacts__group {
+  margin-top: auto;
 }
 
 .contacts__item {
@@ -530,6 +548,7 @@ footer {
 .network__link {
   padding: 10px;
   color: #2196f3;
+  font-size: 18px;
 }
 
 /*
@@ -568,6 +587,7 @@ footer {
             justify-content: center;
     gap: 15px;
     margin-left: auto;
+    margin-top: 0px;
   }
   .contacts__link {
     color: #757575;
@@ -627,6 +647,7 @@ footer {
     -ms-flex-line-pack: center;
         align-content: center;
     text-align: center;
+    margin-top: 0px;
     margin-left: auto;
   }
   .contacts__firstchild {

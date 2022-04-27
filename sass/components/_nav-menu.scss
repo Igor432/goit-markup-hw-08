@@ -10,9 +10,9 @@
   padding-left: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
-  position: absolute;
-  width: 100%;
-  height: auto;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   background-color: #ffff;
@@ -20,6 +20,8 @@
   z-index: 1;
   margin-left: auto;
   transition: transform 450ms ease;
+  display: flex;
+  flex-direction: column;
 
   &.is-open {
     transform: translateY(0);
@@ -143,6 +145,8 @@
     padding-top: 0px;
     padding-left: 0px;
     transform: translateY(0);
+
+    flex-direction: row;
   }
 
   .menu__current {
@@ -210,6 +214,8 @@
     padding-top: 0px;
     padding-left: 0px;
     transform: translateY(0);
+    flex-direction: row;
+  
   }
 
   .menu__current {

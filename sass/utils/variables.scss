@@ -14,12 +14,15 @@ $liner-gradient: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
 $fon-image: url("/images/fon.jpg");
 
 .container {
+  
+  
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+ 
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 header {

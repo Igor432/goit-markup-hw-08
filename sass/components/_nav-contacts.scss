@@ -1,7 +1,6 @@
 .contacts {
   list-style: none;
   display: flex;
-  
   margin-left: auto;
   justify-content: center;
   align-items: center;
@@ -12,15 +11,18 @@
   flex-direction: column-reverse;
   z-index: 1;
   align-items: flex-start;
-  padding-top: 270px;
+ 
   background-color: #ffff;
+  margin-top: auto;
 
   &:first-child {
     margin-right: 50px;
   }
 }
 
-
+.contacts__group {
+  margin-top: auto;
+}
 
 .contacts__item {
   display: list-item;
@@ -93,6 +95,7 @@ color: #2196F3;
 .network__link {
   padding: 10px;
   color: $blue-color;
+  font-size: 18px;
 }
 
 /*
@@ -127,6 +130,7 @@ color: #2196F3;
     justify-content: center;
     gap: 15px;
     margin-left: auto;
+    margin-top: 0px;
   }
 
   .contacts__link {
@@ -183,7 +187,7 @@ color: #2196F3;
     justify-content: center;
     align-content: center;
     text-align: center;
-    
+    margin-top: 0px;
     margin-left: auto;
   }
 

@@ -1225,6 +1225,9 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .team__title {
+    font-size: 33px;
+  }
   .team__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1311,19 +1314,19 @@ footer {
   text-align: center;
 }
 
-.clients .clients__title {
+.client__icons {
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__title {
   line-height: 1.1;
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 0.03em;
   text-align: center;
   margin: 0;
-}
-
-.client__icons {
-  fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__link {
@@ -1353,24 +1356,26 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .clients {
+    font-size: 33px;
+  }
   .clients__link {
     width: 226px;
     height: 92px;
   }
-}
-
-.clients__list {
-  margin-top: 50px;
-}
-
-.clients__title {
-  font-size: 33px;
+  .clients__list {
+    margin-top: 50px;
+  }
+  .clients__title {
+    font-size: 33px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .clients {
     margin-left: auto;
     margin-right: auto;
+    font-size: 36px;
   }
   .clients__link {
     width: 170px;

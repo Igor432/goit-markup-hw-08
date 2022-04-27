@@ -15,7 +15,7 @@
   .team__title {
     line-height: 1.1;
     font-weight: bold;
-    font-size: 28px;
+   font-size: 28px;
     letter-spacing: 0.03em;
     text-align: center;
     margin: 0;
@@ -99,6 +99,11 @@
     display: flex;
     flex-direction: row;
   }
+
+  .team__title {
+    font-size: 33px;
+  }
+
 
   .team__list {
     display: flex ;

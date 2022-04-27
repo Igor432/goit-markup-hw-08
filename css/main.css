@@ -187,6 +187,7 @@ footer {
 .menu__button {
   margin-left: auto;
   z-index: 2;
+  padding: 0;
   background-color: transparent;
   border: none;
 }
@@ -530,7 +531,7 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 64px;
+  margin-top: 54px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
 }
@@ -538,6 +539,7 @@ footer {
 .network__item {
   color: #2196f3;
   border-left: 1px solid rgba(33, 33, 33, 0.2);
+  margin-top: 10px;
 }
 
 .network__item:first-of-type {
@@ -692,6 +694,16 @@ footer {
   }
   .contact__icons {
     display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tel__link {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2196F3;
   }
 }
 

@@ -1210,7 +1210,11 @@ footer {
   margin-top: 10px;
 }
 
-.member__info .team__image {
+.member__info .team__card {
+  display: block;
+}
+
+.team__image {
   width: 100%;
   height: 100%;
 }
@@ -1244,11 +1248,10 @@ footer {
   }
   .team__card {
     width: 354px;
-    height: 536px;
   }
   .team__image {
     width: 100%;
-    height: 374px;
+    height: 100%;
   }
 }
 
@@ -1289,7 +1292,6 @@ footer {
   }
   .team__card {
     width: 270px;
-    height: auto;
   }
 }
 
@@ -1730,7 +1732,6 @@ footer {
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  height: auto;
 }
 
 .cards__main {
@@ -1797,10 +1798,6 @@ footer {
   color: #212121;
 }
 
-.cards__img {
-  height: auto;
-}
-
 .cards__link {
   display: inline-block;
   text-decoration: none;
@@ -1857,14 +1854,14 @@ footer {
             align-items: center;
   }
   .portfolio__cards {
-    height: auto;
+    width: 354px;
   }
   .cards__link {
     max-width: 354px;
   }
   .cards__img {
-    max-width: 100%;
-    height: auto;
+    width: 354px;
+    height: 294px;
   }
 }
 
@@ -1895,7 +1892,7 @@ footer {
   }
   .cards__img {
     width: 370px;
-    height: auto;
+    height: 100%;
   }
 }
 

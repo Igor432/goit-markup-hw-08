@@ -74,7 +74,7 @@
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    height: auto;
+    
   }
 }
 
@@ -129,13 +129,6 @@
     color: rgba(33, 33, 33, 1);
   }
 }
-
-
-.cards__img {
- 
-  height: auto;
-} 
-
 
 .cards__link {
   display: inline-block;
@@ -192,7 +185,8 @@ max-width: 450px;
   .portfolio__cards {
    
   
-  height:auto;
+  width: 354px;
+ 
   }
 
   .cards__link {
@@ -200,8 +194,8 @@ max-width: 450px;
   }
 
 .cards__img {
-  max-width: 100%;
-  height: auto;
+  width: 354px;
+  height: 294px;
 }
 
 }
@@ -233,7 +227,7 @@ margin-top: 50px;
 
 .cards__img {
   width: 370px;
-  height: auto;
+  height: 100%
 }
 
 }

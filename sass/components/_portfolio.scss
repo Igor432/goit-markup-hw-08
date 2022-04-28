@@ -73,7 +73,7 @@
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    height: 404px;
+   
     
   }
 }
@@ -107,12 +107,15 @@
 }
 
 .cards__info {
+  display: block;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
   height: 110px;
+
+  
 
   .cards__type {
     font-size: 16px;
@@ -130,6 +133,10 @@
     color: rgba(33, 33, 33, 1);
   }
 }
+
+.card__two {
+    height: 146px;
+  }
 
 .cards__link {
   display: inline-block;
@@ -180,6 +187,14 @@
     flex-direction: row;
    
     align-items: center;
+  }
+
+  .cards__info {
+    height: 110px;
+  }
+
+  .card__one, .card__two {
+    height: 146px;
   }
 
   .portfolio__cards {

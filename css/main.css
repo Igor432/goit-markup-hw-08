@@ -1874,6 +1874,9 @@ footer {
   .cards__link {
     max-width: 370px;
   }
+  .card__two {
+    height: 110px;
+  }
 }
 
 /* backdrop */

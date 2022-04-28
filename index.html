@@ -76,7 +76,7 @@
 
  
       <section class="hero section">
-        <div class="hero__container">
+        <div class="container">
           <h1 class="hero__slogan">
             Эффективные решения <br />
             для вашего бизнеса
@@ -200,22 +200,24 @@
       <ul class="team__list">
           <li class="team__card">
             <picture class="team__image">
-              <source
-            media="(max-width: 766px)"
-              srcset="./images/Team_sm/img.jpg,
-              ./images/Team_sm/img@2x.jpg 2x" 
-              type="image/jpeg" 
-             >
-              <source  media="(max-width: 1199px)"
-               srcset="./images/team_md/img.jpg,
-              ./images/team_md/img@2x.jpg 2x" 
-              type="image/jpeg" 
-            >
               <source media="(min-width: 1200px)" 
               srcset="./images/team_lg/img270.jpg,
               ./images/team_lg/img.jpg 2x" 
               type="image/jpeg" 
               >
+              <source  media="(min-width: 768px)"
+              srcset="./images/team_md/img.jpg,
+             ./images/team_md/img@2x.jpg 2x" 
+             type="image/jpeg" 
+           >
+              <source
+            media="(max-width: 767px)"
+              srcset="./images/Team_sm/img.jpg,
+              ./images/Team_sm/img@2x.jpg 2x" 
+              type="image/jpeg" 
+             >
+            
+           
               <img
               src="./images/Team_sm/img.jpg"
               alt="Игорь Демьяненко" >
@@ -258,20 +260,22 @@
           </li>
           <li class="team__card">
             <picture class="team__image">
+              <source srcset="./images/team_lg/img-1-270.jpg 1x,
+              ./images/team_lg/img-1.jpg 2x" 
+              type="image/jpeg" 
+              media="(min-width: 1200px)">
+              <source srcset="./images/team_md/img-1.jpg 1x,
+              ./images/team_md/img@2x-1.jpg 2x" 
+              type="image/jpeg" 
+              media="(min-width: 768px)">
               <source media="(max-width: 766px)" 
               srcset="./images/Team_sm/img-1.jpg 1x,
               ./images/Team_sm/img@2x-1.jpg 2x" 
               type="image/jpeg" 
              >
             
-              <source srcset="./images/team_md/img-1.jpg 1x,
-              ./images/team_md/img@2x-1.jpg 2x" 
-              type="image/jpeg" 
-              media="(max-width: 1199px)">
-              <source srcset="./images/team_lg/img-1-270.jpg 1x,
-              ./images/team_lg/img-1.jpg 2x" 
-              type="image/jpeg" 
-              media="(min-width: 1200px)">
+      
+            
               <img 
               
               src="./images/Team_sm/img-1.jpg"
@@ -316,20 +320,22 @@
         </li>
         <li class="team__card">
           <picture class="team__image">
+            <source srcset="./images/team_lg/img-2-270.jpg 1x,
+            ./images/team_lg/img-2.jpg 2x" 
+            type="image/jpeg" 
+            media="(min-width: 1200px)">
+            <source  media="(min-width: 768px)"
+            srcset="./images/team_md/img-2.jpg 1x,
+           ./images/team_md/img@2x-2.jpg 2x" 
+           type="image/jpeg" 
+          >
             <source media="(max-width: 766px)"  
             srcset="./images/Team_sm/img-2.jpg 1x,
             ./images/Team_sm/img@2x-2.jpg 2x" 
             type="image/jpeg" 
             >
-            <source  media="(max-width: 1199px)"
-             srcset="./images/team_md/img-2.jpg 1x,
-            ./images/team_md/img@2x-2.jpg 2x" 
-            type="image/jpeg" 
-           >
-            <source srcset="./images/team_lg/img-2-270.jpg 1x,
-            ./images/team_lg/img-2.jpg 2x" 
-            type="image/jpeg" 
-            media="(min-width: 1200px)">
+         
+           
             <img
            
             src="./images/Team_sm/img-2.jpg"
@@ -374,21 +380,23 @@
       </li>
       <li class="team__card">
         <picture class="team__image">
+          <source srcset="./images/team_lg/img-3-270.jpg 1x,
+          ./images/team_lg/img-3.jpg 2x" 
+          
+          media="(min-width: 1200px)">
+          <source media="(min-width: 768px)"
+          srcset="./images/team_md/img-3.jpg 1x,
+         ./images/team_md/img@2x-3.jpg 2x" 
+        
+         >
           <source media="(max-width: 766px)" 
           
           srcset="./images/Team_sm/img-3.jpg 1x,
           ./images/Team_sm/img@2x-3.jpg 2x" 
          
           >
-          <source media="(max-width: 1199px)"
-           srcset="./images/team_md/img-3.jpg 1x,
-          ./images/team_md/img@2x-3.jpg 2x" 
          
-          >
-          <source srcset="./images/team_lg/img-3-270.jpg 1x,
-          ./images/team_lg/img-3.jpg 2x" 
-          
-          media="(min-width: 1200px)">
+        
          
           <img
          

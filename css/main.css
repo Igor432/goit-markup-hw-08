@@ -708,13 +708,14 @@ footer {
 }
 
 .hero {
-  background-image: url("../images/header-img.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 198px;
   max-width: 767px;
   height: auto;
   margin-left: auto;
@@ -738,19 +739,21 @@ footer {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/header-img@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img@2x.jpg");
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
   .hero {
-    background-image: url("../images/header-img760.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img760.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img760.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 198px;
     max-width: 1200px;
     height: auto;
     margin-left: auto;
@@ -760,19 +763,21 @@ footer {
 
 @media screen and (min-width: 767px) and (max-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (max-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (max-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/header-img760-2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img760-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img760-2x.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url("../images/header-img1600.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img1600.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img1600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 280px;
     max-width: 100%;
     height: auto;
     margin: 0;
@@ -784,7 +789,8 @@ footer {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/header-img1600-2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img1600-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img1600-2x.jpg");
   }
 }
 
@@ -831,24 +837,6 @@ footer {
   cursor: pointer;
 }
 
-.quality {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .quality__item {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -865,11 +853,8 @@ footer {
 }
 
 .quality__square {
-  max-width: 450px;
   height: 120px;
   background-color: #f5f4fa;
-  margin-bottom: 30px;
-  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -885,7 +870,13 @@ footer {
 
 .quality__list {
   list-style: none;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 30px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
@@ -908,7 +899,7 @@ footer {
   text-transform: uppercase;
   line-height: 1.1;
   color: #2f303a;
-  margin-bottom: 10px;
+  margin-top: 30px;
   display: inline-block;
 }
 
@@ -919,6 +910,7 @@ footer {
   color: #757575;
   margin-top: 10px;
   display: inline-block;
+  text-align: start;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
@@ -956,6 +948,9 @@ footer {
   .quality__item {
     display: block;
     width: 354px;
+  }
+  .quality__h3 {
+    margin-top: 0;
   }
   .quality__text {
     -webkit-box-pack: start;
@@ -1088,9 +1083,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .task {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .task .task__list {
     display: -webkit-box;
@@ -1121,17 +1114,8 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 0;
-}
-
-.team .team__title {
-  line-height: 1.1;
-  font-weight: bold;
-  font-size: 28px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin: 0;
 }
 
 .team .links__list {
@@ -1160,6 +1144,15 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.team__title {
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
 }
 
 .team__links {
@@ -1233,15 +1226,6 @@ footer {
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
   .team__title {
     font-size: 33px;
   }
@@ -1270,13 +1254,6 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1731,9 +1708,6 @@ footer {
           padding-inline-start: 0px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1805,13 +1779,13 @@ footer {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .cards__info .cards__title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -1847,8 +1821,6 @@ footer {
     max-width: 1200px;
   }
   .cases__buttons {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1863,9 +1835,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1877,8 +1846,6 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .cases__buttons {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;

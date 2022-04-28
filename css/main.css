@@ -922,18 +922,6 @@ footer {
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
-  .quality {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .quality__square {
     width: auto;
     height: 120px;
@@ -1285,11 +1273,6 @@ footer {
   }
 }
 
-.clients {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .clients .clients__list {
   list-style: none;
   display: -webkit-box;
@@ -1366,8 +1349,6 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .clients {
-    margin-left: auto;
-    margin-right: auto;
     font-size: 36px;
   }
   .clients__link {
